@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MDM Smoke Tests" >
+	<test verbose="2" name="MDM Smoke Tests">	
+		<classes>
+			<!-- <class name="com.mdm.functional.test.AgencyTest"/> -->
+			<class name="com.test.testng.ExecuteOrder" >
+				<methods>
+					<include name="abNavigateTest" />
+					<include name="addAdvGroup" />
+					<include name="addAdvt" />
+					<include name="addBrand" />
+					<include name="addProduct" />
+					<include name="Budget" />
+					<include name="BudgetLine" />
+				</methods>
+			</class>
+			<!-- <class name="com.mdm.functional.test.PublisherTest"/> -->
+		</classes>
+	</test>
+</suite>

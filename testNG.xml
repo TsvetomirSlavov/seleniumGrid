@@ -1,0 +1,12 @@
+<!-- ************************************************************************************************************************ -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- IMPORTANT Use this file as your SAT TestNG XML file -->
+
+<suite thread-count="5" verbose="1" name="SAT Test"
+	skipfailedinvocationcounts="false" junit="false" parallel="methods"
+	data-provider-thread-count="1" annotations="JDK">
+	
+	<test name="SAT-Testing-Pilot">
+		<classes> <class name="com.test.grid.SampleTest"/> </classes>
+	</test>
+</suite>
