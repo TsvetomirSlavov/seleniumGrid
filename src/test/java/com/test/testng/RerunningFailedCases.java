@@ -4,13 +4,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class RerunningFailedCases {
-	
-	private int count; 
-	
-	
+
+	private int count;
+
 	@Test()
-	public void test1(){
-		if(count==3){
+	public void test1() {
+		if (count == 3) {
 			Assert.assertTrue(true);
 		} else {
 			count++;
